@@ -349,7 +349,6 @@ public class DashboardScreen extends JFrame {
         return card;
     }
 
-    // ── Navigation Item ─────────────────────────────────────────────
     private JPanel makeNavItem(String icon, String label, boolean active) {
 
         JPanel item = new JPanel();
@@ -376,7 +375,6 @@ public class DashboardScreen extends JFrame {
         return item;
     }
 
-    // ── Top Icon Button ─────────────────────────────────────────────
     private JButton makeIconButton(String icon) {
 
         JButton btn = new JButton(icon);
@@ -392,7 +390,6 @@ public class DashboardScreen extends JFrame {
         return btn;
     }
 
-    // ── Main Method ─────────────────────────────────────────────────
     public static void main(String[] args) {
 
         SwingUtilities.invokeLater(() -> new DashboardScreen());
